@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/imageButton"-->
+<!--        android:layout_width="48dp"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:layout_marginStart="40dp"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:backgroundTint="#000000"-->
+<!--        android:contentDescription="back"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />-->
+
+    <ImageButton
+        android:id="@+id/adminProfIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#000000"
+        android:contentDescription="adminProfile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+    <!--    <ImageButton-->
+<!--        android:id="@+id/imageButton6"-->
+<!--        android:layout_width="48dp"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:layout_marginStart="145dp"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:layout_marginEnd="40dp"-->
+<!--        android:backgroundTint="#000000"-->
+<!--        android:contentDescription="notify"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/adminProfIcon"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/imageButton"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:srcCompat="@drawable/ic_baseline_circle_notifications_24" />-->
+
+    <TextView
+        android:id="@+id/hungerText"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="@string/hungerText"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminProfIcon" />
+
+    <Button
+        android:id="@+id/addDonation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1FC39E"
+        android:text="@string/add_donation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="555dp"
+        app:layout_constraintBottom_toTopOf="@+id/addDonation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hungerText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

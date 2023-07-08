@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "754482359763",
+    "project_id": "charitymate-8c0a5",
+    "storage_bucket": "charitymate-8c0a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754482359763:android:152049d40735a38a7dd326",
+        "android_client_info": {
+          "package_name": "com.example.charitymate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754482359763-30ick52b5ajabjhna7ij3s1q4t6c60io.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.charitymate",
+            "certificate_hash": "f0480bd8312f13d8ff6698e73d4b44842b511a25"
+          }
+        },
+        {
+          "client_id": "754482359763-0utt63odp3tmfol40ejkq2vvm4msvimg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1XpLRpBtNl2pTHpPv1l-Eria7m_OVm24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754482359763-0utt63odp3tmfol40ejkq2vvm4msvimg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

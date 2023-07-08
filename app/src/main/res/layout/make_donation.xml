@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="335dp"
+        android:backgroundTint="#000000"
+        android:contentDescription="arrow"
+        app:circularflow_radiusInDP="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/tvPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="90dp"
+        android:text="@string/tvPayment"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="414dp"
+        android:layout_height="583dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="159dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/bottom_lay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/tvAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="304dp"
+            android:text="@string/tvAmountPay"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvPayMethod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="253dp"
+            android:text="@string/tvPayMethod"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editAmount" />
+
+        <Spinner
+            android:id="@+id/spnPayMethod"
+            android:layout_width="356dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="100dp"
+            android:entries="@array/methods"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.061"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvPayMethod" />
+
+        <TextView
+            android:id="@+id/tvPayDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="22dp"
+            android:text="@string/tvPayDetails"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spnPayMethod" />
+
+        <EditText
+            android:id="@+id/editAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="179dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/editAmount"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvAmount" />
+
+        <TextView
+            android:id="@+id/tvCardNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="288dp"
+            android:text="@string/tvCardNumber"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvPayDetails" />
+
+        <EditText
+            android:id="@+id/editCardNumber"
+            android:layout_width="293dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="77dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/editCardNumber"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvCardNumber" />
+
+        <TextView
+            android:id="@+id/tvExpire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="127dp"
+            android:text="@string/tvExpire"
+            app:layout_constraintEnd_toStartOf="@+id/tvCVV"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editCardNumber" />
+
+        <TextView
+            android:id="@+id/tvCVV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="146dp"
+            android:text="@string/tvCVV"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editCardNumber" />
+
+        <EditText
+            android:id="@+id/editDate"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginEnd="75dp"
+            android:ems="10"
+            android:inputType="date"
+            android:hint="@string/date"
+            app:layout_constraintEnd_toStartOf="@+id/editCVV"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvExpire" />
+
+        <EditText
+            android:id="@+id/editCVV"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="127dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="@string/cvv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvCVV" />
+
+        <Button
+            android:id="@+id/btnConfirmed"
+            android:layout_width="114dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="63dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/btnConfirm"
+            app:cornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editCVV" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

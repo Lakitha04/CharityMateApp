@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">CharityMate</string>
+    <string name="WelcomeText">WELCOME</string>
+    <string name="getStarted">Get Started</string>
+    <string name="RegWelcomeTxt">Choose Your Option</string>
+    <string name="button_Reg">Register</string>
+    <string name="button_login">Login</string>
+    <string name="regAsAGiverRegT">REGISTER</string>
+    <string name="regAsAGiverName">Name</string>
+    <string name="regAsAGiverEmail">Email</string>
+    <string name="regAsAGiverUname">Username</string>
+    <string name="button_RegGiverSbmt">Register</string>
+    <string name="regAsAGiverPassword">Enter Password</string>
+    <string name="regAsAGiverRePassword">Re-enter Password</string>
+    <string name="regAsAGiverTel">Mobile Number</string>
+    <string name="btnDonate">Make a Donation</string>
+    <string name="tvHungerTitle">Donate to the refugee camp and help them to relieve their hunger</string>
+    <string name="tvHungerDescription">Sgyufduyd Hdgcyuvs Tgygfcuygs For Shduygyu bdgsjnjabdh bdvdhbaks sgdvgavksdv avsdg dgvgskv vasgdvh dv svdg</string>
+    <string name="hungerDonationProgressVal">Rs.2,000,000</string>
+    <string name="btnHealth">Health</string>
+    <string name="btnEducation">Education</string>
+    <string name="btnHunger">Hunger Relief</string>
+    <string name="btnAll">All types</string>
+    <string name="hungerReliefDesc01">Donate to fight against malnutrition in Kahatagasdigiliya</string>
+    <string name="hungerReliefDesc02">Donate to the refugee camp and help them to relieve their hunger</string>
+    <string name="hungerReliefDesc03">Susan Elderly Care Home needs dry rations</string>
+    <string name="hungerReliefDesc04">SpringField Orphanage needs your help</string>
+    <string name="hungerReliefTopic">Hunger Relief</string>
+    <string name="hungerReliefCV01T01">Rs.1,000,000</string>
+    <string name="hungerReliefCV02T01">Rs.2,000,000</string>
+    <string name="hungerReliefCV03T01">Rs.50,000</string>
+    <string name="hungerText">Hunger Relief Management</string>
+    <string name="HungerCard01T01">Donate to fight against malnutrition in Kahatagasdigiliya</string>
+    <string name="button_editHunger01">Edit</string>
+    <string name="button_deleteHunger01">Delete</string>
+    <string name="HungerCard02T01">Donate to the refugee camp and help them to relieve their hunger</string>
+    <string name="button_editHunger02">Edit</string>
+    <string name="button_deleteHunger02">Delete</string>
+    <string name="button_calProg01">Calculate Progress</string>
+    <string name="button_calProg">Calculate Progress</string>
+    <string name="button_calProg02">Calculate Progress</string>
+    <string name="upText">Hello User</string>
+    <string name="button_dash">Go to Dashboard</string>
+    <string name="button_edit">Edit Profile</string>
+    <string name="upTVname">Name</string>
+    <string name="upTVemail">Email</string>
+    <string name="upTVTel">Mobile Number</string>
+    <string name="upTVnic">NIC</string>
+    <string name="tvAddDonation">Hunger Relief Donations</string>
+    <string name="tvTitle">Title</string>
+    <string name="EditTextTitle">Donation Title</string>
+    <string name="tvDescriptionAdd">Description</string>
+    <string name="EditTextDescription">Enter Description</string>
+    <string name="tvAmount">Amount</string>
+    <string name="editTextEnterAmmount">Enter Amount</string>
+    <string name="tvStart">Start Date</string>
+    <string name="tvEndDate">End Date</string>
+    <string name="Date1">dd/mm/yy</string>
+    <string name="Date2">dd/mm/yy</string>
+    <string name="amount">00.00</string>
+    <string name="BtnAddDonation">ADD</string>
+    <string name="btnAdd">Submit</string>
+    <string name="hungerLocation">Location</string>
+    <string name="number">Contact</string>
+    <string name="btnSubmitt">SUBMIT</string>
+    <string name="buttonSave">Update</string>
+    <string name="updateDonation">Update Hunger Details</string>
+    <string name="buttonAddDonation">Submit</string>
+    <string name="add_donation">Add Donation</string>
+    <string name="EducationName">Education Center Name</string>
+    <string name="apText">Hello Admin</string>
+    <string name="apTVname">Name</string>
+    <string name="apTVemail">Email</string>
+    <string name="apTVTel">Mobile Number</string>
+    <string name="apTVnic">NIC</string>
+    <string name="apTVCat">Section</string>
+    <string name="tvDonation" translatable="false">Donation Recipient</string>
+    <string name="tvAmountPay" translatable="false">Enter Amount</string>
+    <string name="tvPayMethod" translatable="false">Payment Method</string>
+    <string name="tvPayDetails" translatable="false">Payment Details</string>
+    <string name="editAmount" translatable="false">0.00</string>
+    <string name="btnAccInfo" translatable="false">Account Information</string>
+    <string name="btnSendDonation" translatable="false">Send Donation</string>
+    <string name="tvCardNumber" translatable="false">Card Number</string>
+    <string name="editCardNumber" translatable="false">Enter card number</string>
+    <string name="tvExpire" translatable="false">Expiry date</string>
+    <string name="tvCVV" translatable="false">CVV</string>
+    <string name="editDate" translatable="false">MM/YY</string>
+    <string name="switch01" translatable="false">Remember Details</string>
+    <string name="btnBack" translatable="false">BACK</string>
+    <string name="date" translatable="false">mm/yy</string>
+    <string name="cvv" translatable="false">xxx</string>
+    <string name="tvPayment" translatable="false">Make your Donation</string>
+    <string name="btnConfirmed" translatable="false">CONFIRM</string>
+    <string name="btnConfirm" translatable="false">CONFIRM</string>
+    <string-array name="methods">
+        <item>Credit card</item>
+        <item>Debit card</item>
+        <item>Paypal</item>
+    </string-array>
+    <!--    <string name="hungerText">Hunger Relief Management</string>-->
+    <!--    <string name="HungerCard01T01">Donate to fight against malnutrition in Kahatagasdigiliya</string>-->
+    <!--    <string name="button_editHunger01">Edit</string>-->
+    <!--    <string name="button_deleteHunger01">Delete</string>-->
+    <!--    <string name="HungerCard02T01">Donate to the refugee camp and help them to relieve their hunger</string>-->
+    <!--    <string name="button_editHunger02">Edit</string>-->
+    <!--    <string name="button_deleteHunger02">Delete</string>-->
+    <!--    <string name="button_calProg01">Calculate Progress</string>-->
+    <!--    <string name="button_calProg">Calculate Progress</string>-->
+    <!--    <string name="button_calProg02">Calculate Progress</string>-->
+
+</resources>
